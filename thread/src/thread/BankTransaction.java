@@ -1,6 +1,6 @@
 package thread;
 class Account{
-	int balance=500;
+	int balance=500;  //my account
 	synchronized void transaction(int amt) {
 		Thread thread=Thread.currentThread();
 		String name=thread.getName();
